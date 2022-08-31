@@ -32,13 +32,13 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.1 || ^8.0",
         "symfony/doctrine-bridge": "^3.4|^4.0",
         "doctrine/inflector": "^1.0",
         "doctrine/cache": "^1.4.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.0",
+        "phpcompatibility/php-compatibility": "^9.3",
         "symfony/phpunit-bridge": "^3.4|^4.0",
         "symfony/yaml": "^3.4|^4.0",
         "symfony/validator": "^3.4|^4.0",
@@ -46,11 +46,7 @@
         "symfony/finder": "^3.4|^4.0",
         "symfony/framework-bundle": "^3.4|^4.0",
         "symfony/security-acl": "^2.8",
-        "instaclick/coding-standard": "~1.1",
         "satooshi/php-coveralls": "^1.0",
-        "squizlabs/php_codesniffer": "~1.5",
-        "instaclick/object-calisthenics-sniffs": "dev-master",
-        "instaclick/symfony2-coding-standard": "dev-remaster",
         "predis/predis": "~0.8"
     },
     "suggest": {

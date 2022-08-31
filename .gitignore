@@ -1,5 +1,6 @@
-vendor
-build
+vendor/
+build/
+.idea/
 composer.phar
 composer.lock
 phpunit.xml
